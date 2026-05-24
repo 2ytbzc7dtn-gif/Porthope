@@ -1,0 +1,310 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+    margin: 0;
+    background-color: #15322c;
+
+}
+
+/****** Make sure they have this rule below!! */
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    width: 960px;
+    height: 1600px;
+    background-color:#23433c;
+    margin: 0px auto 0px auto; /* This is the code I use to center a block level element but NOT to center content inside of it */
+}
+
+header {
+    width: 960px;
+    height: 200px;
+    background-color: #23433c;
+}
+
+.wheatpng {
+    position: relative;
+    left: 72px;
+    bottom: 10px;
+}
+
+#logobox {
+    width: 200px;
+    height: 210px;
+    position: relative;
+    left:380px;
+    bottom: 170px;
+    padding-top: 10px;
+    z-index: 2;
+}
+
+.greenline {
+    position: absolute;
+    padding-top: 10px;
+}
+
+.aboutus {
+    position: relative;
+    left:30px;
+    bottom: 20px;
+}
+
+.getinvolved a {
+    position: relative;
+    right: 15px;
+    bottom: 35px;
+}
+
+.fairbook a {
+    position: relative;
+    left: 145px;
+    bottom: 35px;
+}
+
+.contactus {
+    position: relative;
+    left: 110px;
+    bottom: 20px;
+}
+
+nav {
+    width: 960px;
+    height: 52px;
+    line-height: 52px;
+    position: relative;
+    bottom: 213px;
+    float: left;
+    margin: 8px 2px 0px 0px;
+}
+
+
+nav a {
+    color: #f8d03f;
+    font-size: 18px;
+    font-family: ltc-bodoni-175, serif;
+    text-decoration: none;
+    margin: 0px 30px;
+    float: left;
+    position: relative;
+    bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+
+
+nav a:hover {
+    color: white;
+}
+
+#slider {
+    width: 960px;
+    height: 320px;
+
+}
+
+#slider img {
+    width: 960px;
+    z-index: 1;
+    position: relative;
+    bottom: 245px;
+	animation-name: fade;
+	animation-duration: 0.5s;
+}
+
+.slidercontent {
+    width: 960px;
+    z-index: 1;
+    height: 50px;
+    background-color: rgba(28, 51, 25, 0.5);
+    margin: -50px auto 0px auto;
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    font-family: helvetica;
+    font-weight: light;
+    line-height: 50px;
+	user-select: none;
+    bottom: 400px;
+}
+
+
+#arrow_prev {
+    float: left;
+    margin-left: 40px;
+	cursor: pointer;
+    color: white;
+}
+
+#arrow_next {
+    float: right;
+    margin-right: 40px;
+	cursor: pointer;
+    color: white;
+}
+
+
+@keyframes fade {
+    from {opacity: .7} 
+    to {opacity: 1}
+}
+
+
+
+
+#mainbody {
+    width: 960px;
+    height: 700px;
+
+}
+
+#thankyou {
+    width: 960px;
+    height: 200px;
+}
+
+.thankyouimg {
+    position: relative;
+left: 575px;
+bottom: 100px;
+}
+
+h1 {
+    color: #f8d03f;
+    padding-left: 80px;
+    padding-top: 15px;
+    font-family: ltc-bodoni-175, serif;
+}
+
+#thankyoup p {
+    padding-right: 410px;
+    text-align: left;
+    padding-left: 80px;
+}
+
+
+#recentnews {
+    width: 960px;
+    height: 390px;
+    
+}
+
+
+
+#leftrecent {
+    width: 310px;
+    height: 470px;
+    float: left;
+}
+
+#leftrecent p{
+    width: 290px;
+    padding-left: 60px;
+    font-family: helvetica;
+    font-weight: lighter;
+}
+
+#leftrecent img {
+    padding-top: 40px;
+    position: relative;
+    left: 60px;
+}
+
+
+#centerrecent {
+    width: 310px;
+    height: 470px; 
+    margin: 0px 10px 0px 10px;
+    float: left;
+}
+
+#centerrecent p{
+    width: 280px;
+    padding-left: 35px;
+    font-family: helvetica;
+    font-weight: lighter;
+}
+
+#centerrecent img{
+    padding-top: 40px;
+    position: relative;
+    left: 40px;
+}
+
+#rightrecent {
+    width: 310px;
+    height: 470px;
+    float: left;
+}
+
+#rightrecent p{
+    width: 260px;
+    padding-right: 25px;
+    font-family: helvetica;
+    font-weight: lighter;
+}
+
+#rightrecent {
+    padding-top: 40px;
+    position: relative;
+    left: 20px;
+}
+
+p {
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    font-family: helvetica;
+    font-weight: lighter;
+}
+
+footer {
+    width: 960px;
+    height: 50px;
+    background-color: #4d6660;
+    position: relative;
+    top:230px;
+}
+
+.thankyou2 {
+    position: relative;
+    
+}
+
+#info p{
+    position: relative;
+    bottom: 90px;
+    left: 450px;
+    text-align: left;
+}
+
+#headerinfo {
+    position: relative;
+    bottom: 85px;
+    left: 370px;
+}
+
+#pumpkinbanner {
+    position: relative;
+    bottom: 220px;
+}
+
+#plant {
+    position: relative;
+    bottom: 68px;
+    left: 900px;
+}
+
+
+
+.footertext {
+    position: relative;
+    bottom: 75px;
+    
+
+}

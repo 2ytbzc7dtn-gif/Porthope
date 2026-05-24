@@ -1,0 +1,273 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+    margin: 0;
+    background-color: #15322c;
+   
+}
+
+/****** Make sure they have this rule below!! */
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    width: 960px;
+    height: 1710px;
+    background-color:#23433c;
+    margin: 0px auto 0px auto; /* This is the code I use to center a block level element but NOT to center content inside of it */
+}
+
+header {
+    width: 960px;
+    height: 200px;
+    background-color: #23433c;
+}
+
+.wheatpng {
+    position: relative;
+    left: 72px;
+    bottom: 10px;
+}
+
+#logobox {
+    z-index: 2;
+    width: 200px;
+    height: 210px;
+    position: relative;
+    left:380px;
+    bottom: 170px;
+    padding-top: 10px;
+  
+}
+
+
+
+
+.greenline {
+    position: absolute;
+    padding-top: 10px;
+    
+}
+
+.aboutus {
+    position: relative;
+    left:30px;
+    bottom: 20px;
+}
+
+.getinvolved a {
+    position: relative;
+    right: 15px;
+    bottom: 35px;
+}
+
+.fairbook a {
+    position: relative;
+    left: 145px;
+    bottom: 35px;
+}
+
+.contactus {
+    position: relative;
+    left: 110px;
+    bottom: 20px;
+}
+
+nav {
+    width: 960px;
+    height: 52px;
+    line-height: 52px;
+    position: relative;
+    bottom: 213px;
+    float: left;
+    margin: 8px 2px 0px 0px;
+}
+
+
+nav a {
+    color: #f8d03f;
+    font-family: ltc-bodoni-175, serif;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0px 30px;
+    float: left;
+    position: relative;
+    bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+
+
+nav a:hover {
+    color: white;
+}
+
+#slider {
+    position: absolute;
+    width: 960px;
+    height: 320px;
+    top: 445px;
+ 
+}
+
+
+#slider img {
+    width: 960px;
+    z-index: 1;
+    position: relative;
+    bottom: 245px;
+	animation-name: fade;
+	animation-duration: 0.5s;
+}
+
+
+.slidercontent {
+    width: 960px;
+    z-index: 1;
+    height: 50px;
+   
+    margin: -50px auto 0px auto;
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    font-family: helvetica;
+    font-weight: light;
+    line-height: 50px;
+	user-select: none;
+    bottom: 400px;
+}
+
+
+
+#arrow_prev {
+    padding-top: 40px;
+    float: left;
+    margin-left: 40px;
+	cursor: pointer;
+    color: white;
+}
+
+#arrow_next {
+    padding-top: 40px;
+    float: right;
+    margin-right: 40px;
+	cursor: pointer;
+    color: white;
+}
+
+
+@keyframes fade {
+  from {opacity: .7} 
+  to {opacity: 1}
+}
+
+
+#mainbody {
+    width: 960px;
+    height: 700px;
+
+}
+
+.leftabout {
+    width: 450px;
+    height: 700px;
+    float: left;
+    
+}
+
+h1 {
+    color: #f8d03f;
+    font-family: ltc-bodoni-175, serif;
+    position: relative;
+    bottom: 40px;
+
+}
+
+h2 {
+    position: relative;
+    font-family: ltc-bodoni-175, serif;
+    left: 80px;
+    top: 100px;
+    color: #f8d03f;
+}
+ 
+.gallery {
+    padding-left: 35px;
+    position: relative;
+    right: 95px;
+    bottom: 50px;
+}
+
+
+p {
+    font-family: helvetica;
+    font-weight: lighter;
+    color: white;
+    line-height: 30px;
+    position: relative;
+    left: 80px;
+    top: 100px;
+}
+
+#history {
+    position: relative;
+    left: 80px;
+    top: 130px;
+}
+
+.images {
+    width: 200px;
+    height: 500px;
+    float: right;
+    position: relative;
+    top: 200px;
+    right: 90px;
+    
+}
+
+#plant {
+    position: relative;
+    float: right;
+    right: 30px;
+    bottom: 68px;
+}
+
+#whiteline {
+    position: relative;
+    bottom: 480px;
+    left: 550px;
+}
+
+.bottombox img{
+    width: 960px;
+    position: relative;
+    top: 100px;
+    
+}
+
+.footertext {
+    position: relative;
+    bottom: 105px;
+    left: 90px;
+}
+
+footer {
+    width: 960px;
+    height: 50px;
+    background-color: #4d6660;
+    position: absolute;
+    top: 1600px;
+}
+
+#map {
+    position: relative;
+    right: 60px;
+    bottom: 80px;
+}
+
+

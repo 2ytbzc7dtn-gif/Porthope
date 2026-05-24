@@ -1,0 +1,241 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+    margin: 0;
+    background-color: #15322c;
+   
+}
+
+/****** Make sure they have this rule below!! */
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    width: 960px;
+    height: 1710px;
+    background-color:#23433c;
+    margin: 0px auto 0px auto; /* This is the code I use to center a block level element but NOT to center content inside of it */
+}
+
+header {
+    width: 960px;
+    height: 200px;
+    background-color: #23433c;
+}
+
+.wheatpng {
+    position: relative;
+
+    left: 72px;
+    bottom: 10px;
+}
+
+#logobox {
+    width: 200px;
+    height: 210px;
+    position: relative;
+    left:380px;
+    bottom: 170px;
+    padding-top: 10px;
+  
+}
+
+.greenline {
+    position: absolute;
+    padding-top: 10px;
+}
+
+.aboutus {
+    position: relative;
+    left:30px;
+    bottom: 20px;
+}
+
+.getinvolved a {
+    position: relative;
+    right: 15px;
+    bottom: 35px;
+}
+
+.fairbook a {
+    position: relative;
+    left: 145px;
+    bottom: 35px;
+}
+
+.contactus {
+    position: relative;
+    left: 110px;
+    bottom: 20px;
+}
+
+nav {
+    width: 960px;
+    height: 52px;
+    line-height: 52px;
+    position: relative;
+    bottom: 213px;
+    float: left;
+    margin: 8px 2px 0px 0px;
+    z-index: 2000;
+}
+
+
+nav a {
+    color: #f8d03f;
+    font-family: ltc-bodoni-175, serif;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0px 30px;
+    float: left;
+    position: relative;
+    bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+
+
+nav a:hover {
+    color: white;
+}
+
+
+#mainbody {
+    width: 960px;
+    height: 700px;
+
+}
+
+#bannerad {
+    position: relative;
+    left: 50px;
+    bottom: 80px;
+}
+
+#leftbox {
+    width: 155px;
+    height: auto;
+    margin: 10px 0px 0px 100px;
+    
+}
+
+#leftbox img{
+    position: relative;
+    bottom: 80px;
+    float: left;
+    right: 50px;
+    margin: 3px;
+    
+    
+}
+
+#volunteer {
+    width: 450px;
+    height: auto;
+    float: left;
+    position: relative;
+    bottom: 430px;
+    
+   
+}
+
+
+#okmove {
+    width: 260px;
+    height: 200px;
+    position: relative;
+    padding-left: 55px;
+    bottom: 315px;
+    
+    
+}
+
+
+
+#additonal {
+    width: 960px;
+    background-color: #f8d03f;
+}
+
+h1 {
+    color: #f8d03f;
+    font-family: ltc-bodoni-175, serif;
+
+
+}
+
+ul {
+    float:left;
+    position: relative;
+    bottom: 230px;
+    left: 30px;
+    color: white;
+    font-family: helvetica;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+h2 {
+    color: #f8d03f;
+    font-family: ltc-bodoni-175, serif;
+    position: relative;
+    bottom: 210px;
+    left: 55px;
+}
+
+#phframe {
+    position: relative;
+    bottom: 198px;
+    left: 67px;
+}
+
+#bannerrow {
+    position: relative;
+    bottom: 230px;
+}
+
+p {
+    color: white;
+    line-height: 30px;
+    text-align: left;
+    font-family: helvetica;
+    font-weight: lighter;
+}
+
+
+
+#email {
+    width: 700px;
+    position: relative;
+   bottom: 200px;
+    left: 55px;
+}
+
+#plant {
+    position: relative;
+    float: right;
+    right: 30px;
+    bottom: 68px;
+}
+
+
+footer {
+    width: 960px;
+    height: 50px;
+    background-color: #4d6660;
+    position: absolute;
+    top: 1600px;
+}
+
+.footertext {
+    position: relative;
+    bottom: 5px;
+    left: 150px;
+}
+
+
